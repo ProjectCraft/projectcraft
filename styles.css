@@ -24,6 +24,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	padding-top: 50px;
 	line-height: 1;
 	background-color: #A6FBC9;
 }
@@ -43,7 +44,7 @@ table {
 	border-spacing: 0;
 }
 h1{
-	font-size: 36px;
+	font-size: 500px;
 	font-weight: 700;
 	margin-bottom: 5.7%;
 }
@@ -141,10 +142,6 @@ h3{
 	background-color: #707070;
 }
 
-.mission .row{
-	border: 1px solid #74C898;
-}
-
 .mission img{
 	display: block;
 	margin: 0 auto;
@@ -183,4 +180,3 @@ h3{
 	margin-right: -50%;
 	transform: translate(-50%, -50%) 
 }
-
