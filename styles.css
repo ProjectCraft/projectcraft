@@ -23,9 +23,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+	position: relative;
+	min-height: 100%;
+}
 body {
+	margin: 0 0 100px;
+	padding-top: 50px;
 	line-height: 1;
-	background-color: #A6FBC9;
+	background-color: #f0f2f0;
 }
 ol, ul {
 	list-style: none;
@@ -104,11 +110,14 @@ h3{
 	font-size: 18px;
 }
 
-.footer p{
+footer p{
 	text-align: center;
 	font-weight: 300;
 	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 .apply h3{
 	text-align: center;
 	vertical-align: middle;
@@ -139,10 +148,6 @@ h3{
 }
 .mission{
 	background-color: #707070;
-}
-
-.mission .row{
-	border: 1px solid #74C898;
 }
 
 .mission img{
@@ -184,3 +189,60 @@ h3{
 	transform: translate(-50%, -50%) 
 }
 
+footer {
+    background-color: #A6FBC9;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+}
+
+.apply-container{
+	margin-top: 3.7%;
+	margin-bottom: 3.7%;
+}
+input.name, select {
+	width:49%;
+    max-width: 248px;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.desc, select {
+	width:99%;
+    max-width: 500px;
+	height: 200px;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input.email, select {
+	width:99%;
+    max-width: 500px;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit{
+	border-radius: 18px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	height: 50px;
+	width: 200px;
+	background-color: #A6FBC9;
+	border: 2px solid #C7E9F1;
+}
