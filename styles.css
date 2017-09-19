@@ -246,3 +246,7 @@ input.email, select {
 	background-color: #A6FBC9;
 	border: 2px solid #C7E9F1;
 }
+
+textarea {
+	resize: none;
+}
