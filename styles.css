@@ -48,7 +48,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 h1 {
 	font-size: 36px;
 	font-weight: 700;
@@ -176,24 +175,40 @@ footer p {
 }
 
 .apply-button {
-	margin: 0 auto;
+	/* margin: 0 auto;
 	border-radius: 15px;
 	border-color: #E7FFFC;
 	border-style: solid;
 	background: #A6FBC9;
+	text-align: center;
 	padding: 20px;
 	width: 250px;
-	height: 75px;
+	height: 75px; */
+	width: 250px;
+	margin: 0 auto;
+	border-style: solid;
+	padding: 0px;
+	border-radius: 15px;
+	text-align: center;
+	background: #A6FBC9 !important;
 }
 
-.apply-button p {
-	text-align: center;
-	position: absolute;
+.apply-button a {
+	display: block;
+	padding: 25px;
+	text-decoration: none;
+	/* position: absolute;
 	margin: 0;
 	top: 50%;
 	left: 50%;
 	margin-right: -50%;
-	transform: translate(-50%, -50%)
+	transform: translate(-50%, -50%); */
+	/* width: 250px;
+	height: 75px; */
+}
+
+.vert-center h3 {
+	line-height: 65px;
 }
 
 footer {
